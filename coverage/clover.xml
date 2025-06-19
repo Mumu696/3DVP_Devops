@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1750363429890" clover="3.2.0">
-  <project timestamp="1750363429890" name="All files">
+<coverage generated="1750365291039" clover="3.2.0">
+  <project timestamp="1750365291039" name="All files">
     <metrics statements="24" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2" elements="31" coveredelements="24" complexity="0" loc="24" ncloc="24" packages="1" files="3" classes="3"/>
     <file name="app.js" path="C:\Users\NGUEND DIME\3DVP_Devops\src\app.js">
       <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="0"/>

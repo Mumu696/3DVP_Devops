@@ -7,8 +7,8 @@
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "test": "jest --coverage --forceExit --detectOpenHandles",
-    "coverage-badge": "npx -p jest-coverage-badges jest-coverage-badges",
-    "lint": "eslint src tests --fix"
+    "lint": "eslint src tests --fix",
+     "coverage-badge": "npx -p coverage-badges-cli coverage-badges"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -21,6 +21,7 @@
     "jest": "^30.0.2",
     "jest-coverage-badges": "^1.1.2",
     "nodemon": "^2.0.7",
-    "supertest": "^7.1.1"
+    "supertest": "^7.1.1",
+    "coverage-badges-cli": "^1.2.3"
   }
 }
