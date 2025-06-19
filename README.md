@@ -15,3 +15,16 @@ Returns the application status.
 
 ## Development
 Use `npm run dev` for development with hot-reload.
+
+# 3DVP_Devops
+
+[![Tests](https://github.com/mumu696/devops-ninja/workflows/Tests/badge.svg)](https://github.com/mumu696/devops-ninja/actions)
+[![Coverage](https://github.com/mumu696/devops-ninja/blob/main/coverage-badge.svg)](https://github.com/mumu696/devops-ninja/actions)
+
+## **Tests**
+- **Lancez les tests** : `npm test`
+- **Vérifiez la qualité du code** : `npm run lint`
+
+## **Badges**
+- ✅ **Tests automatisés** via GitHub Actions
+- 📊 **Couverture de code** (minimum 70% requis)

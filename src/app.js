@@ -11,8 +11,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 app.use('/api', require('./routes'));
 
-// Démarrer le serveur
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Serveur démarré sur http://localhost:${PORT}`);
-});
+// Exportez l'application sans démarrer le serveur
+const server = app.listen(0); // 0 = port aléatoire pour les tests
+
+// Exportez à la fois l'app et le server
+module.exports = { app, server };
+
+// Démarrage du serveur seulement si exécuté directement
+if (require.main === module) {
+  const PORT = process.env.PORT || 3000;
+  server.listen(PORT, () => {
+    console.log(`Serveur démarré sur http://localhost:${PORT}`);
+  });
+}
