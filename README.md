@@ -28,3 +28,10 @@ Use `npm run dev` for development with hot-reload.
 ## **Badges**
 - ✅ **Tests automatisés** via GitHub Actions
 - 📊 **Couverture de code** (minimum 70% requis)
+
+## **Sécurité**
+
+[![Security Audit](https://github.com/mumu696/devops-ninja/actions/workflows/quality.yml/badge.svg)](https://github.com/mumu696/devops-ninja/actions/workflows/quality.yml)
+
+- Audit des dépendances : `npm audit`
+- Qualité de code : `npm run lint`
