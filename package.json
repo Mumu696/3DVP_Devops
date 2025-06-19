@@ -7,6 +7,7 @@
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
     "test": "jest --coverage --forceExit --detectOpenHandles",
+    "coverage-badge": "npx -p jest-coverage-badges jest-coverage-badges",
     "lint": "eslint src tests --fix"
   },
   "dependencies": {
