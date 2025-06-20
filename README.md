@@ -35,3 +35,10 @@ Use `npm run dev` for development with hot-reload.
 
 - Audit des dépendances : `npm audit`
 - Qualité de code : `npm run lint`
+## **Déploiement avec Docker**
+
+[![Docker Build](https://github.com/mumu696/devops-ninja/actions/workflows/docker.yml/badge.svg)](https://github.com/mumu696/devops-ninja/actions/workflows/docker.yml)
+
+### Pour développer :
+```bash
+docker-compose up
